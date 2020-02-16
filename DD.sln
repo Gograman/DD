@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29311.281
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DD", "DD\DD.csproj", "{060D2E94-5BDD-4A81-AAE5-E7F707C91F8E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DD_test", "DD\DD_test.csproj", "{060D2E94-5BDD-4A81-AAE5-E7F707C91F8E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DigitalDispatcher", "DigitalDispatcher\DigitalDispatcher.csproj", "{4CFA1D1B-7A0D-4E88-B019-9F4A25A1B1CD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{060D2E94-5BDD-4A81-AAE5-E7F707C91F8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{060D2E94-5BDD-4A81-AAE5-E7F707C91F8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{060D2E94-5BDD-4A81-AAE5-E7F707C91F8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CFA1D1B-7A0D-4E88-B019-9F4A25A1B1CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CFA1D1B-7A0D-4E88-B019-9F4A25A1B1CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CFA1D1B-7A0D-4E88-B019-9F4A25A1B1CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CFA1D1B-7A0D-4E88-B019-9F4A25A1B1CD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -49,5 +49,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DigitalDispatcher\DigitalDispatcher.csproj">
+      <Project>{4cfa1d1b-7a0d-4e88-b019-9f4a25a1b1cd}</Project>
+      <Name>DigitalDispatcher</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

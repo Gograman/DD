@@ -10,8 +10,11 @@ namespace DD
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("TEst");
+
+            DigitalDispatcher.DD DD = new DigitalDispatcher.DD();
+            DD.test("analitic Anatoliy");
             Console.ReadLine();
+
         }
     }
 }
