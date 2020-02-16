@@ -10,6 +10,8 @@ namespace DD
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("TEst");
+            Console.ReadLine();
         }
     }
 }
