@@ -15,6 +15,7 @@ namespace DD
             DD.test("analitic Anatoliy");
             Console.ReadLine();
 
+            
         }
     }
 }

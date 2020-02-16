@@ -11,7 +11,14 @@ namespace DigitalDispatcher
         public void test(string text)
         {
             Console.WriteLine("I hate " + text);
-                    }
+            DD_DB DD_DB = new DD_DB();
+         
+            foreach (MSG m in DD_DB.MSG.ToList())
+            {
+                Console.WriteLine(m.Msg_Text);
+            }
+
+        }
        
     }
 }
